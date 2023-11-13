@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+      <servlet-name>CarSession</servlet-name>
+      <servlet-class>CarSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarSession</servlet-name>
+        <url-pattern>/carsession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>RestoreCarSession</servlet-name>
+      <servlet-class>RestoreCarSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestoreCarSession</servlet-name>
+        <url-pattern>/restorecarsession</url-pattern>
+    </servlet-mapping>
+</web-app>

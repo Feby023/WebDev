@@ -1,0 +1,22 @@
+<!-- web.xml -->
+<web-app>
+    <servlet>
+      <servlet-name>CarModConfig</servlet-name>
+      <servlet-class>CarModConfig</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarModConfig</servlet-name>
+        <url-pattern>/carmodconfig</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>RestoreCarModConfig</servlet-name>
+      <servlet-class>RestoreCarModConfig</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestoreCarModConfig</servlet-name>
+        <url-pattern>/restorecarmodconfig</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>CarModsServlet</servlet-name>
+        <servlet-class>CarModsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarModsServlet</servlet-name>
+        <url-pattern>/carmodsservlet</url-pattern>
+    </servlet-mapping>
+</web-app>

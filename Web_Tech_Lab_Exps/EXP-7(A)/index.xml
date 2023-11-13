@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+      <servlet-name>StoreCar</servlet-name>
+      <servlet-class>StoreCar</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StoreCar</servlet-name>
+        <url-pattern>/storecar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>AccessCar</servlet-name>
+      <servlet-class>AccessCar</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AccessCar</servlet-name>
+        <url-pattern>/accesscar</url-pattern>
+    </servlet-mapping>
+</web-app>

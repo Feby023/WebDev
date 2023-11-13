@@ -1,0 +1,31 @@
+<web-app>
+    <servlet>
+      <servlet-name>LoginQuiz</servlet-name>
+      <servlet-class>LoginQuiz</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginQuiz</servlet-name>
+        <url-pattern>/loginquiz</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>AccessQuiz</servlet-name>
+      <servlet-class>AccessQuiz</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AccessQuiz</servlet-name>
+        <url-pattern>/accessquiz</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>EvaluationQuiz</servlet-name>
+      <servlet-class>EvaluationQuiz</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EvaluationQuiz</servlet-name>
+        <url-pattern>/evaluationquiz</url-pattern>
+    </servlet-mapping>
+</web-app>
